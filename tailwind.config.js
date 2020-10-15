@@ -5,10 +5,7 @@ module.exports = {
     // defaultLineHeights: true,
     // standardFontWeights: true
   },
-  purge: {
-    enabled: true,
-    content: ['./src/**/*.njk']
-  },
+  purge: ['./src/**/*.njk'],
   theme: {
     extend: {}
   },
