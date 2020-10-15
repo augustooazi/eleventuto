@@ -1,0 +1,11 @@
+{
+  "name": "eleventuto",
+  "version": "1.0.0",
+  "description": "Starter for 11ty with TailwindCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Augusto Oazi",
+  "license": "MIT"
+}
