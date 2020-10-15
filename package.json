@@ -4,14 +4,17 @@
   "description": "Starter for 11ty with TailwindCSS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf public src/css/styles.css",
+    "dev": "npm run clean && postcss src/css/tailwind.css > src/css/styles.css && eleventy --serve",
+    "build": "npm run clean && NODE_ENV=production postcss src/css/tailwind.css > src/css/styles.css && eleventy"
   },
   "author": "Augusto Oazi",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0"
-  },
-  "dependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "autoprefixer": "^10.0.1",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^8.1.0",
     "tailwindcss": "^1.9.2"
   }
 }
