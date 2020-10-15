@@ -3,6 +3,7 @@
 
 # build artefacts
 /dist
+/src/css/styles.css
 
 # macOS related files
 .DS_Store
