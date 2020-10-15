@@ -2,7 +2,7 @@
 /node_modules
 
 # build artefacts
-/dist
+/public
 /src/css/styles.css
 
 # macOS related files
